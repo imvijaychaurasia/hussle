@@ -43,9 +43,9 @@ function renderCard(item, index) {
   const link = document.createElement('a');
   link.className = 'card-link';
   link.textContent = 'Request this ->';
-  const subject = `Task request: ${item.title}`;
-  const body = `Hi Vijay,\n\nI need help with: ${item.title}\n\nWhat I need done:\n\nWhen I need it by:\n`;
-  link.href = mailtoLink(subject, body);
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.href = whatsappLink(`Hi Vijay, I need help with: ${item.title}.`);
 
   footer.appendChild(turnaround);
   footer.appendChild(link);

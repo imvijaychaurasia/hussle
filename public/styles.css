@@ -1,28 +1,28 @@
 :root {
-  --bg: #0a0e12;
-  --bg-alt: #0d1117;
-  --card: #10151c;
-  --border: #1f2733;
-  --text: #e6edf3;
-  --text-dim: #8b96a5;
-  --accent: #5eead4;
-  --accent-2: #22d3ee;
-  --accent-text: #05201c;
-  --radius: 12px;
+  --bg: #fdf9ee;
+  --bg-alt: #f6f0da;
+  --card: #f6f0da;
+  --border: #e2d8b8;
+  --text: #25252b;
+  --text-dim: #5f5d6b;
+  --accent: #b12d6c;
+  --accent-2: #8a1f52;
+  --accent-text: #fdf9ee;
+  --radius: 6px;
   --sidebar-w: 400px;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --bg: #fbfbfc;
-    --bg-alt: #ffffff;
-    --card: #ffffff;
-    --border: #e3e6ea;
-    --text: #0b0e14;
-    --text-dim: #5b6472;
-    --accent: #0d9488;
-    --accent-2: #0891b2;
-    --accent-text: #ffffff;
+    --bg: #19161f;
+    --bg-alt: #201c27;
+    --card: #221e2b;
+    --border: #363047;
+    --text: #f2ede1;
+    --text-dim: #a79fb0;
+    --accent: #ee5b96;
+    --accent-2: #f386b3;
+    --accent-text: #19161f;
   }
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Sora', 'Inter', sans-serif;
+  font-family: 'Outfit', 'Inter', sans-serif;
 }
 
 .mono {
@@ -69,19 +69,21 @@ a { color: inherit; }
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-right: 1px solid var(--border);
+  border-right: 2px solid var(--border);
 }
 
 .sidebar-top .name {
+  font-family: 'Outfit', sans-serif;
   font-size: clamp(28px, 2.6vw, 38px);
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
   margin: 0 0 8px;
 }
 
 .sidebar-top .role {
   font-size: 14px;
   color: var(--accent);
+  font-weight: 500;
   margin: 0 0 24px;
   letter-spacing: 0.01em;
 }
@@ -111,20 +113,20 @@ a { color: inherit; }
   font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   transition: color 0.2s ease;
 }
 
 .side-nav a .bar {
   width: 24px;
-  height: 1px;
+  height: 2px;
   background: var(--text-dim);
   transition: width 0.2s ease, background 0.2s ease;
 }
 
 .side-nav a:hover,
 .side-nav a.active {
-  color: var(--text);
+  color: var(--accent);
 }
 
 .side-nav a:hover .bar,
@@ -146,13 +148,12 @@ a { color: inherit; }
 
 .social-row a {
   color: var(--text-dim);
-  transition: color 0.2s ease, transform 0.2s ease;
+  transition: color 0.15s ease;
   display: inline-flex;
 }
 
 .social-row a:hover {
   color: var(--accent);
-  transform: translateY(-2px);
 }
 
 .social-row svg {
@@ -181,7 +182,7 @@ a { color: inherit; }
     width: auto;
     height: auto;
     border-right: none;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 2px solid var(--border);
     padding: 40px 24px;
   }
   .side-nav { flex-direction: row; flex-wrap: wrap; margin-top: 24px; }
@@ -199,7 +200,7 @@ a { color: inherit; }
   letter-spacing: 0.14em;
   font-size: 12px;
   color: var(--accent);
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 0 16px;
 }
 
@@ -207,7 +208,7 @@ a { color: inherit; }
   font-size: clamp(30px, 4.2vw, 44px);
   line-height: 1.15;
   margin: 0 0 20px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   font-weight: 700;
 }
 
@@ -227,16 +228,16 @@ a { color: inherit; }
 .btn {
   display: inline-block;
   padding: 12px 22px;
-  border-radius: 999px;
+  border-radius: var(--radius);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
-  transition: opacity 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  border: 2px solid transparent;
+  transition: transform 0.1s ease, background 0.15s ease, border-color 0.15s ease;
 }
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 26px color-mix(in srgb, var(--accent) 30%, transparent);
 }
 
 .btn:active { transform: translateY(0); }
@@ -244,12 +245,23 @@ a { color: inherit; }
 .btn-primary {
   background: var(--accent);
   color: var(--accent-text);
+  border-color: var(--accent);
+}
+
+.btn-primary:hover {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
 }
 
 .btn-ghost {
   background: transparent;
   color: var(--text);
-  border: 1px solid var(--border);
+  border-color: var(--border);
+}
+
+.btn-ghost:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 /* Content sections */
@@ -278,6 +290,7 @@ a { color: inherit; }
   font-size: 22px;
   margin: 0;
   letter-spacing: -0.01em;
+  font-weight: 600;
 }
 
 .section-sub {
@@ -312,24 +325,23 @@ a { color: inherit; }
 
 .card {
   background: var(--card);
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   border-radius: var(--radius);
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  transition: border-color 0.15s ease;
 }
 
 .card:hover {
-  transform: translateY(-3px);
-  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
-  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.22);
+  border-color: var(--accent);
 }
 
 .card h3 {
   margin: 0;
   font-size: 15.5px;
+  font-weight: 600;
 }
 
 .card .tagline {
@@ -365,15 +377,16 @@ a { color: inherit; }
 
 .card-link {
   font-size: 12.5px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--accent);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
   white-space: nowrap;
-  transition: transform 0.15s ease;
   display: inline-block;
 }
 
-.card-link:hover { transform: translateX(3px); }
+.card-link:hover { color: var(--accent-2); }
 
 .resource-grid {
   display: grid;
@@ -384,6 +397,7 @@ a { color: inherit; }
 .resource h3 {
   margin: 0 0 6px;
   font-size: 15px;
+  font-weight: 600;
 }
 
 .resource p {
@@ -409,17 +423,17 @@ a { color: inherit; }
 
 .skill-chip {
   padding: 8px 16px;
-  border-radius: 999px;
+  border-radius: var(--radius);
   background: var(--card);
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   font-size: 13px;
-  font-weight: 500;
-  transition: transform 0.15s ease, border-color 0.15s ease;
+  font-weight: 600;
+  transition: border-color 0.15s ease, color 0.15s ease;
 }
 
 .skill-chip:hover {
-  transform: translateY(-2px);
   border-color: var(--accent);
+  color: var(--accent);
 }
 
 .steps {
@@ -434,7 +448,7 @@ a { color: inherit; }
   justify-content: center;
   width: 28px;
   height: 28px;
-  border-radius: 50%;
+  border-radius: var(--radius);
   background: var(--accent);
   color: var(--accent-text);
   font-family: 'JetBrains Mono', monospace;
@@ -446,6 +460,7 @@ a { color: inherit; }
 .step h3 {
   margin: 0 0 4px;
   font-size: 15px;
+  font-weight: 600;
 }
 
 .step p {
