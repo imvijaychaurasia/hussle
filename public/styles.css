@@ -192,7 +192,100 @@ a { color: inherit; }
 /* Intro block (top of content column) */
 
 .intro {
-  margin-bottom: 96px;
+  margin-bottom: 56px;
+}
+
+/* "What I run on" highlight panel */
+
+.rig {
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+  margin-bottom: 88px;
+  background: color-mix(in srgb, var(--accent) 7%, var(--bg-alt));
+}
+
+.rig-head {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 22px;
+}
+
+.rig-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: rigPulse 1.8s ease-in-out infinite;
+}
+
+@keyframes rigPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.7); }
+}
+
+.rig-badge {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.rig-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 24px;
+}
+
+.rig-block h3 {
+  font-size: 12.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.rig-sub {
+  font-size: 12.5px;
+  color: var(--text-dim);
+  margin: 0 0 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.rig-specs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.rig-specs li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px dashed var(--border);
+}
+
+.rig-label {
+  color: var(--text-dim);
+}
+
+.rig-value {
+  color: var(--text);
+  font-weight: 500;
+  text-align: right;
+}
+
+@media (max-width: 1024px) {
+  .rig-value { text-align: left; }
+  .rig-specs li { flex-direction: column; gap: 2px; }
 }
 
 .eyebrow {
@@ -494,6 +587,7 @@ a { color: inherit; }
 .hero-in.delay-1 { animation-delay: 0.08s; }
 .hero-in.delay-2 { animation-delay: 0.16s; }
 .hero-in.delay-3 { animation-delay: 0.24s; }
+.hero-in.delay-4 { animation-delay: 0.32s; }
 
 @keyframes heroIn {
   from { opacity: 0; transform: translateY(12px); }
