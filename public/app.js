@@ -2,7 +2,7 @@ const CONTACT = {
   email: 'imvijaychaurasia@gmail.com',
   // Replace with your WhatsApp number in international format, digits only, no + or spaces.
   // Example: 919812345678
-  whatsappNumber: 'REPLACE_WITH_YOUR_NUMBER'
+  whatsappNumber: '918828287588'
 };
 
 function mailtoLink(subject, body) {
