@@ -1,0 +1,12 @@
+{
+  "name": "hussle",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal services listing prototype",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
