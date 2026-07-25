@@ -93,6 +93,7 @@ function wireGlobalContact() {
   const emailBtn = document.getElementById('contact-email');
   const waBtn = document.getElementById('contact-whatsapp');
   const sidebarWa = document.getElementById('social-whatsapp');
+  const subscribeWa = document.getElementById('subscribe-whatsapp');
 
   const waHref = whatsappLink("Hi Vijay, I have something I'd like your help with.");
 
@@ -104,6 +105,9 @@ function wireGlobalContact() {
   }
   if (waBtn) waBtn.href = waHref;
   if (sidebarWa) sidebarWa.href = waHref;
+  if (subscribeWa) {
+    subscribeWa.href = whatsappLink('Hi Vijay, I\'d like to subscribe for ongoing help.');
+  }
 }
 
 loadServices();
