@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: imvijaychaurasia/hussle
+  branch: main
+  base_url: http://192.168.102.105:4175
+  auth_endpoint: auth
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "services"
+    label: "Services"
+    files:
+      - name: "listings"
+        label: "Service Listings"
+        file: "public/data/services.json"
+        fields:
+          - label: "Categories"
+            name: "groups"
+            widget: "list"
+            summary: "{{fields.group}} ({{fields.items}} items)"
+            fields:
+              - { label: "Category name", name: "group", widget: "string" }
+              - label: "Listings in this category"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Tagline", name: "tagline", widget: "string" }
+                  - { label: "Details (bullet points)", name: "details", widget: "list" }
+                  - { label: "Turnaround", name: "turnaround", widget: "string" }

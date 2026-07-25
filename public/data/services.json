@@ -1,399 +1,369 @@
-[
-  {
-    "group": "Documents & Presentations",
-    "items": [
-      {
-        "id": "presentation-design",
-        "title": "Presentation Design & Rebuilds",
-        "tagline": "Send the data and talking points, get back a deck that's ready to present.",
-        "details": [
-          "Slide design and rebuilds from raw content or rough drafts",
-          "Visual cleanup of existing decks under a deadline",
-          "Charts and data turned into something readable"
-        ],
-        "turnaround": "Same day to 48 hrs"
-      },
-      {
-        "id": "reports-onepagers",
-        "title": "Reports & One-Pagers",
-        "tagline": "Structured write-ups from notes, threads, or half-finished drafts.",
-        "details": [
-          "Status reports and executive summaries",
-          "One-pagers and briefing documents",
-          "Formatting and cleanup of long documents"
-        ],
-        "turnaround": "Same day to 48 hrs"
-      },
-      {
-        "id": "professional-docs",
-        "title": "Resumes & Professional Documents",
-        "tagline": "Resumes, portfolios, and profiles that read well and look sharp.",
-        "details": [
-          "Resume and cover letter rewrites",
-          "Portfolio assembly and formatting",
-          "LinkedIn and professional profile cleanup"
-        ],
-        "turnaround": "Same day to 48 hrs"
-      }
-    ]
-  },
-  {
-    "group": "Video & Creative",
-    "items": [
-      {
-        "id": "video-editing",
-        "title": "Video Editing & Post-Production",
-        "tagline": "Footage that needs cutting, grading, or a full edit for delivery.",
-        "details": [
-          "Editing, cuts, and color for social or client delivery",
-          "Titles, captions, and basic motion graphics",
-          "Quick turnarounds on time-sensitive footage"
-        ],
-        "turnaround": "Depends on footage length"
-      },
-      {
-        "id": "rendering",
-        "title": "High-Performance Rendering & Export",
-        "tagline": "A fast render on serious hardware when your machine can't keep up.",
-        "details": [
-          "Rendering on a high-performance workstation",
-          "Batch exports in multiple formats and resolutions",
-          "Fast turnaround on deadline-critical renders"
-        ],
-        "turnaround": "Depends on project size"
-      },
-      {
-        "id": "audio-cleanup",
-        "title": "Audio Cleanup & Podcast Editing",
-        "tagline": "Noisy or uneven audio, cleaned up and cut for release.",
-        "details": [
-          "Noise reduction and levelling",
-          "Podcast and interview editing",
-          "Export for streaming platforms"
-        ],
-        "turnaround": "1-2 days"
-      },
-      {
-        "id": "social-cutdowns",
-        "title": "Thumbnails & Social Cutdowns",
-        "tagline": "Long-form content trimmed and repackaged for social.",
-        "details": [
-          "Thumbnail design",
-          "Short-form cutdowns from long-form footage",
-          "Platform-specific formatting and captions"
-        ],
-        "turnaround": "Same day to 48 hrs"
-      }
-    ]
-  },
-  {
-    "group": "IT Support & Troubleshooting",
-    "items": [
-      {
-        "id": "it-fixes",
-        "title": "System & Config Debugging",
-        "tagline": "A stuck system, a broken config, a script that won't run. Send it over.",
-        "details": [
-          "Debugging environments, configs, and broken scripts",
-          "One-off fixes you don't have time to chase down",
-          "Root-cause troubleshooting, not just a patch"
-        ],
-        "turnaround": "Usually same day"
-      },
-      {
-        "id": "software-setup",
-        "title": "Software Setup & Configuration",
-        "tagline": "Tools and apps set up properly the first time.",
-        "details": [
-          "Installation and configuration of tools you're stuck on",
-          "Environment setup for new machines or projects",
-          "Migration between tools or platforms"
-        ],
-        "turnaround": "Same day to 48 hrs"
-      },
-      {
-        "id": "device-network",
-        "title": "Device & Network Troubleshooting",
-        "tagline": "Slow, misbehaving, or misconfigured, sorted out remotely.",
-        "details": [
-          "Remote diagnosis of device and connectivity issues",
-          "Home or small-office network configuration",
-          "Performance troubleshooting"
-        ],
-        "turnaround": "Usually same day"
-      }
-    ]
-  },
-  {
-    "group": "DevOps & Infrastructure",
-    "items": [
-      {
-        "id": "cicd",
-        "title": "CI/CD Pipeline Setup & Fixes",
-        "tagline": "Pipelines that are broken, slow, or don't exist yet.",
-        "details": [
-          "Pipeline setup from scratch",
-          "Debugging failing builds and deployments",
-          "Speeding up slow pipelines"
-        ],
-        "turnaround": "1-3 days depending on scope"
-      },
-      {
-        "id": "server-deploy",
-        "title": "Server & Deployment Configuration",
-        "tagline": "Getting an app or service properly deployed and running.",
-        "details": [
-          "Server setup and hardening",
-          "Deployment configuration",
-          "Domain, DNS, and reverse proxy setup"
-        ],
-        "turnaround": "1-3 days depending on scope"
-      },
-      {
-        "id": "infra-automation",
-        "title": "Infra Cleanup & Automation Scripting",
-        "tagline": "Manual, repetitive ops work turned into scripts that just run.",
-        "details": [
-          "Infra cleanup and one-off ops tasks",
-          "Automation scripts for repetitive work",
-          "Documentation of what was changed and why"
-        ],
-        "turnaround": "1-3 days depending on scope"
-      },
-      {
-        "id": "monitoring",
-        "title": "Monitoring & Alerting Setup",
-        "tagline": "Know when something breaks, before your users tell you.",
-        "details": [
-          "Monitoring and uptime checks",
-          "Alerting configuration",
-          "Basic dashboards for system health"
-        ],
-        "turnaround": "1-3 days depending on scope"
-      }
-    ]
-  },
-  {
-    "group": "Security & Compliance",
-    "items": [
-      {
-        "id": "security-review",
-        "title": "Security Reviews & Gap Assessments",
-        "tagline": "A professional look at where you're exposed.",
-        "details": [
-          "Security reviews and gap assessments",
-          "Prioritized findings, not just a scan report",
-          "Plain-language explanations for non-technical stakeholders"
-        ],
-        "turnaround": "Scoped per engagement"
-      },
-      {
-        "id": "compliance-docs",
-        "title": "Compliance Documentation & Policy Drafting",
-        "tagline": "Policies and documentation written to actually hold up.",
-        "details": [
-          "Compliance documentation and policy drafting",
-          "Framework mapping and gap tracking",
-          "Plain-language policy rewrites"
-        ],
-        "turnaround": "Scoped per engagement"
-      },
-      {
-        "id": "audit-prep",
-        "title": "Audit Prep & Evidence Organization",
-        "tagline": "Get organized before the auditor asks.",
-        "details": [
-          "Audit prep and evidence organization",
-          "Control mapping and documentation",
-          "Mock audit walkthroughs"
-        ],
-        "turnaround": "Scoped per engagement"
-      },
-      {
-        "id": "vendor-risk",
-        "title": "Vendor & Third-Party Risk Reviews",
-        "tagline": "Know what you're exposed to before you sign.",
-        "details": [
-          "Vendor security questionnaire review",
-          "Third-party risk assessments",
-          "Contract and access review from a security angle"
-        ],
-        "turnaround": "Scoped per engagement"
-      }
-    ]
-  },
-  {
-    "group": "Data & Reporting",
-    "items": [
-      {
-        "id": "data-cleaning",
-        "title": "Data Cleaning & Analysis",
-        "tagline": "Raw spreadsheets and logs turned into something usable.",
-        "details": [
-          "Cleaning and structuring messy data",
-          "Analysis that answers a specific question",
-          "Turning numbers into a report someone can act on"
-        ],
-        "turnaround": "1-3 days depending on scope"
-      },
-      {
-        "id": "dashboards",
-        "title": "Dashboards & Recurring Reports",
-        "tagline": "A report you don't have to rebuild every week.",
-        "details": [
-          "Dashboard setup for recurring metrics",
-          "Recurring reporting templates",
-          "Handoff documentation so you can maintain it yourself"
-        ],
-        "turnaround": "1-3 days depending on scope"
-      },
-      {
-        "id": "spreadsheet-automation",
-        "title": "Spreadsheet & Workflow Automation",
-        "tagline": "The manual steps in your workflow, removed.",
-        "details": [
-          "Spreadsheet formulas, templates, and cleanup",
-          "Workflow automation between tools",
-          "Reducing manual, repetitive data entry"
-        ],
-        "turnaround": "1-3 days depending on scope"
-      }
-    ]
-  },
-  {
-    "group": "Marketing & Content",
-    "items": [
-      {
-        "id": "content-editing",
-        "title": "Copy & Content Editing",
-        "tagline": "Copy that reads clean and says what you meant.",
-        "details": [
-          "Copy and content editing",
-          "Tone and clarity passes on existing drafts",
-          "Proofreading under a deadline"
-        ],
-        "turnaround": "Same day to 48 hrs"
-      },
-      {
-        "id": "campaign-assets",
-        "title": "Campaign Asset Assembly",
-        "tagline": "All the pieces of a campaign, put together properly.",
-        "details": [
-          "Campaign asset assembly",
-          "Formatting for different platforms",
-          "Coordinating assets from multiple sources"
-        ],
-        "turnaround": "Same day to 48 hrs"
-      },
-      {
-        "id": "positioning",
-        "title": "Positioning & Messaging Support",
-        "tagline": "A second set of eyes on how you're describing what you do.",
-        "details": [
-          "Positioning and messaging feedback",
-          "Rewriting unclear or jargon-heavy copy",
-          "Consistency checks across materials"
-        ],
-        "turnaround": "Scoped per engagement"
-      },
-      {
-        "id": "content-calendar",
-        "title": "Content Calendar & Publishing Support",
-        "tagline": "Keep a publishing schedule without owning it yourself.",
-        "details": [
-          "Content calendar setup and upkeep",
-          "Scheduling and publishing support",
-          "Basic performance tracking"
-        ],
-        "turnaround": "Scoped per engagement"
-      }
-    ]
-  },
-  {
-    "group": "Process & Documentation",
-    "items": [
-      {
-        "id": "process-audit",
-        "title": "Process Audits & Gap Analysis",
-        "tagline": "A clear-eyed look at how something actually works today.",
-        "details": [
-          "Process audits and gap analysis",
-          "Identifying bottlenecks and redundant steps",
-          "Recommendations that are actually actionable"
-        ],
-        "turnaround": "Scoped per engagement"
-      },
-      {
-        "id": "sop-writing",
-        "title": "SOP Writing",
-        "tagline": "The process in your head, written down properly.",
-        "details": [
-          "SOP writing from how things actually work today",
-          "Step-by-step documentation for handoffs",
-          "Review and cleanup of existing SOPs"
-        ],
-        "turnaround": "Scoped per engagement"
-      },
-      {
-        "id": "system-docs",
-        "title": "Documentation of Undocumented Systems",
-        "tagline": "The thing only one person understands, finally written down.",
-        "details": [
-          "Structured documentation of undocumented systems",
-          "Knowledge base setup and cleanup",
-          "Onboarding docs for new team members"
-        ],
-        "turnaround": "Scoped per engagement"
-      }
-    ]
-  },
-  {
-    "group": "Teaching & Mentoring",
-    "items": [
-      {
-        "id": "upskilling",
-        "title": "1:1 Upskilling Sessions",
-        "tagline": "Focused sessions on a specific tool, topic, or skill gap.",
-        "details": [
-          "IT, security, and engineering topics",
-          "Structured around your actual goal, not a generic syllabus",
-          "Follow-up notes after each session"
-        ],
-        "turnaround": "Scheduled sessions"
-      },
-      {
-        "id": "code-review-walkthrough",
-        "title": "Code & Config Review Walkthroughs",
-        "tagline": "A live walkthrough of what's wrong and why, not just a comment thread.",
-        "details": [
-          "Code, config, or architecture review",
-          "Explained line by line where it matters",
-          "Written summary you can keep and share"
-        ],
-        "turnaround": "Scheduled sessions"
-      },
-      {
-        "id": "tool-onboarding",
-        "title": "Tool Onboarding for Teams",
-        "tagline": "Get a team productive on a new tool quickly.",
-        "details": [
-          "Structured onboarding sessions",
-          "Reference material your team can reuse",
-          "Follow-up Q&A after rollout"
-        ],
-        "turnaround": "Scoped per engagement"
-      },
-      {
-        "id": "career-prep",
-        "title": "Career & Interview Prep in Tech",
-        "tagline": "Practical prep from someone who has sat on both sides of the table.",
-        "details": [
-          "Mock interviews with real feedback",
-          "Resume and portfolio review",
-          "Role-specific prep for IT, security, or engineering roles"
-        ],
-        "turnaround": "Scheduled sessions"
-      }
-    ]
-  }
-]
+{
+  "groups": [
+    {
+      "group": "Documents & Presentations",
+      "items": [
+        {
+          "title": "Presentation Design & Rebuilds",
+          "tagline": "Send the data and talking points, get back a deck that's ready to present.",
+          "details": [
+            "Slide design and rebuilds from raw content or rough drafts",
+            "Visual cleanup of existing decks under a deadline",
+            "Charts and data turned into something readable"
+          ],
+          "turnaround": "Same day to 48 hrs"
+        },
+        {
+          "title": "Reports & One-Pagers",
+          "tagline": "Structured write-ups from notes, threads, or half-finished drafts.",
+          "details": [
+            "Status reports and executive summaries",
+            "One-pagers and briefing documents",
+            "Formatting and cleanup of long documents"
+          ],
+          "turnaround": "Same day to 48 hrs"
+        },
+        {
+          "title": "Resumes & Professional Documents",
+          "tagline": "Resumes, portfolios, and profiles that read well and look sharp.",
+          "details": [
+            "Resume and cover letter rewrites",
+            "Portfolio assembly and formatting",
+            "LinkedIn and professional profile cleanup"
+          ],
+          "turnaround": "Same day to 48 hrs"
+        }
+      ]
+    },
+    {
+      "group": "Video & Creative",
+      "items": [
+        {
+          "title": "Video Editing & Post-Production",
+          "tagline": "Footage that needs cutting, grading, or a full edit for delivery.",
+          "details": [
+            "Editing, cuts, and color for social or client delivery",
+            "Titles, captions, and basic motion graphics",
+            "Quick turnarounds on time-sensitive footage"
+          ],
+          "turnaround": "Depends on footage length"
+        },
+        {
+          "title": "High-Performance Rendering & Export",
+          "tagline": "A fast render on serious hardware when your machine can't keep up.",
+          "details": [
+            "Rendering on a high-performance workstation",
+            "Batch exports in multiple formats and resolutions",
+            "Fast turnaround on deadline-critical renders"
+          ],
+          "turnaround": "Depends on project size"
+        },
+        {
+          "title": "Audio Cleanup & Podcast Editing",
+          "tagline": "Noisy or uneven audio, cleaned up and cut for release.",
+          "details": [
+            "Noise reduction and levelling",
+            "Podcast and interview editing",
+            "Export for streaming platforms"
+          ],
+          "turnaround": "1-2 days"
+        },
+        {
+          "title": "Thumbnails & Social Cutdowns",
+          "tagline": "Long-form content trimmed and repackaged for social.",
+          "details": [
+            "Thumbnail design",
+            "Short-form cutdowns from long-form footage",
+            "Platform-specific formatting and captions"
+          ],
+          "turnaround": "Same day to 48 hrs"
+        }
+      ]
+    },
+    {
+      "group": "IT Support & Troubleshooting",
+      "items": [
+        {
+          "title": "System & Config Debugging",
+          "tagline": "A stuck system, a broken config, a script that won't run. Send it over.",
+          "details": [
+            "Debugging environments, configs, and broken scripts",
+            "One-off fixes you don't have time to chase down",
+            "Root-cause troubleshooting, not just a patch"
+          ],
+          "turnaround": "Usually same day"
+        },
+        {
+          "title": "Software Setup & Configuration",
+          "tagline": "Tools and apps set up properly the first time.",
+          "details": [
+            "Installation and configuration of tools you're stuck on",
+            "Environment setup for new machines or projects",
+            "Migration between tools or platforms"
+          ],
+          "turnaround": "Same day to 48 hrs"
+        },
+        {
+          "title": "Device & Network Troubleshooting",
+          "tagline": "Slow, misbehaving, or misconfigured, sorted out remotely.",
+          "details": [
+            "Remote diagnosis of device and connectivity issues",
+            "Home or small-office network configuration",
+            "Performance troubleshooting"
+          ],
+          "turnaround": "Usually same day"
+        }
+      ]
+    },
+    {
+      "group": "DevOps & Infrastructure",
+      "items": [
+        {
+          "title": "CI/CD Pipeline Setup & Fixes",
+          "tagline": "Pipelines that are broken, slow, or don't exist yet.",
+          "details": [
+            "Pipeline setup from scratch",
+            "Debugging failing builds and deployments",
+            "Speeding up slow pipelines"
+          ],
+          "turnaround": "1-3 days depending on scope"
+        },
+        {
+          "title": "Server & Deployment Configuration",
+          "tagline": "Getting an app or service properly deployed and running.",
+          "details": [
+            "Server setup and hardening",
+            "Deployment configuration",
+            "Domain, DNS, and reverse proxy setup"
+          ],
+          "turnaround": "1-3 days depending on scope"
+        },
+        {
+          "title": "Infra Cleanup & Automation Scripting",
+          "tagline": "Manual, repetitive ops work turned into scripts that just run.",
+          "details": [
+            "Infra cleanup and one-off ops tasks",
+            "Automation scripts for repetitive work",
+            "Documentation of what was changed and why"
+          ],
+          "turnaround": "1-3 days depending on scope"
+        },
+        {
+          "title": "Monitoring & Alerting Setup",
+          "tagline": "Know when something breaks, before your users tell you.",
+          "details": [
+            "Monitoring and uptime checks",
+            "Alerting configuration",
+            "Basic dashboards for system health"
+          ],
+          "turnaround": "1-3 days depending on scope"
+        }
+      ]
+    },
+    {
+      "group": "Security & Compliance",
+      "items": [
+        {
+          "title": "Security Reviews & Gap Assessments",
+          "tagline": "A professional look at where you're exposed.",
+          "details": [
+            "Security reviews and gap assessments",
+            "Prioritized findings, not just a scan report",
+            "Plain-language explanations for non-technical stakeholders"
+          ],
+          "turnaround": "Scoped per engagement"
+        },
+        {
+          "title": "Compliance Documentation & Policy Drafting",
+          "tagline": "Policies and documentation written to actually hold up.",
+          "details": [
+            "Compliance documentation and policy drafting",
+            "Framework mapping and gap tracking",
+            "Plain-language policy rewrites"
+          ],
+          "turnaround": "Scoped per engagement"
+        },
+        {
+          "title": "Audit Prep & Evidence Organization",
+          "tagline": "Get organized before the auditor asks.",
+          "details": [
+            "Audit prep and evidence organization",
+            "Control mapping and documentation",
+            "Mock audit walkthroughs"
+          ],
+          "turnaround": "Scoped per engagement"
+        },
+        {
+          "title": "Vendor & Third-Party Risk Reviews",
+          "tagline": "Know what you're exposed to before you sign.",
+          "details": [
+            "Vendor security questionnaire review",
+            "Third-party risk assessments",
+            "Contract and access review from a security angle"
+          ],
+          "turnaround": "Scoped per engagement"
+        }
+      ]
+    },
+    {
+      "group": "Data & Reporting",
+      "items": [
+        {
+          "title": "Data Cleaning & Analysis",
+          "tagline": "Raw spreadsheets and logs turned into something usable.",
+          "details": [
+            "Cleaning and structuring messy data",
+            "Analysis that answers a specific question",
+            "Turning numbers into a report someone can act on"
+          ],
+          "turnaround": "1-3 days depending on scope"
+        },
+        {
+          "title": "Dashboards & Recurring Reports",
+          "tagline": "A report you don't have to rebuild every week.",
+          "details": [
+            "Dashboard setup for recurring metrics",
+            "Recurring reporting templates",
+            "Handoff documentation so you can maintain it yourself"
+          ],
+          "turnaround": "1-3 days depending on scope"
+        },
+        {
+          "title": "Spreadsheet & Workflow Automation",
+          "tagline": "The manual steps in your workflow, removed.",
+          "details": [
+            "Spreadsheet formulas, templates, and cleanup",
+            "Workflow automation between tools",
+            "Reducing manual, repetitive data entry"
+          ],
+          "turnaround": "1-3 days depending on scope"
+        }
+      ]
+    },
+    {
+      "group": "Marketing & Content",
+      "items": [
+        {
+          "title": "Copy & Content Editing",
+          "tagline": "Copy that reads clean and says what you meant.",
+          "details": [
+            "Copy and content editing",
+            "Tone and clarity passes on existing drafts",
+            "Proofreading under a deadline"
+          ],
+          "turnaround": "Same day to 48 hrs"
+        },
+        {
+          "title": "Campaign Asset Assembly",
+          "tagline": "All the pieces of a campaign, put together properly.",
+          "details": [
+            "Campaign asset assembly",
+            "Formatting for different platforms",
+            "Coordinating assets from multiple sources"
+          ],
+          "turnaround": "Same day to 48 hrs"
+        },
+        {
+          "title": "Positioning & Messaging Support",
+          "tagline": "A second set of eyes on how you're describing what you do.",
+          "details": [
+            "Positioning and messaging feedback",
+            "Rewriting unclear or jargon-heavy copy",
+            "Consistency checks across materials"
+          ],
+          "turnaround": "Scoped per engagement"
+        },
+        {
+          "title": "Content Calendar & Publishing Support",
+          "tagline": "Keep a publishing schedule without owning it yourself.",
+          "details": [
+            "Content calendar setup and upkeep",
+            "Scheduling and publishing support",
+            "Basic performance tracking"
+          ],
+          "turnaround": "Scoped per engagement"
+        }
+      ]
+    },
+    {
+      "group": "Process & Documentation",
+      "items": [
+        {
+          "title": "Process Audits & Gap Analysis",
+          "tagline": "A clear-eyed look at how something actually works today.",
+          "details": [
+            "Process audits and gap analysis",
+            "Identifying bottlenecks and redundant steps",
+            "Recommendations that are actually actionable"
+          ],
+          "turnaround": "Scoped per engagement"
+        },
+        {
+          "title": "SOP Writing",
+          "tagline": "The process in your head, written down properly.",
+          "details": [
+            "SOP writing from how things actually work today",
+            "Step-by-step documentation for handoffs",
+            "Review and cleanup of existing SOPs"
+          ],
+          "turnaround": "Scoped per engagement"
+        },
+        {
+          "title": "Documentation of Undocumented Systems",
+          "tagline": "The thing only one person understands, finally written down.",
+          "details": [
+            "Structured documentation of undocumented systems",
+            "Knowledge base setup and cleanup",
+            "Onboarding docs for new team members"
+          ],
+          "turnaround": "Scoped per engagement"
+        }
+      ]
+    },
+    {
+      "group": "Teaching & Mentoring",
+      "items": [
+        {
+          "title": "1:1 Upskilling Sessions",
+          "tagline": "Focused sessions on a specific tool, topic, or skill gap.",
+          "details": [
+            "IT, security, and engineering topics",
+            "Structured around your actual goal, not a generic syllabus",
+            "Follow-up notes after each session"
+          ],
+          "turnaround": "Scheduled sessions"
+        },
+        {
+          "title": "Code & Config Review Walkthroughs",
+          "tagline": "A live walkthrough of what's wrong and why, not just a comment thread.",
+          "details": [
+            "Code, config, or architecture review",
+            "Explained line by line where it matters",
+            "Written summary you can keep and share"
+          ],
+          "turnaround": "Scheduled sessions"
+        },
+        {
+          "title": "Tool Onboarding for Teams",
+          "tagline": "Get a team productive on a new tool quickly.",
+          "details": [
+            "Structured onboarding sessions",
+            "Reference material your team can reuse",
+            "Follow-up Q&A after rollout"
+          ],
+          "turnaround": "Scoped per engagement"
+        },
+        {
+          "title": "Career & Interview Prep in Tech",
+          "tagline": "Practical prep from someone who has sat on both sides of the table.",
+          "details": [
+            "Mock interviews with real feedback",
+            "Resume and portfolio review",
+            "Role-specific prep for IT, security, or engineering roles"
+          ],
+          "turnaround": "Scheduled sessions"
+        }
+      ]
+    }
+  ]
+}

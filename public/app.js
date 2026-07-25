@@ -80,7 +80,7 @@ async function loadServices() {
   if (!container) return;
   try {
     const res = await fetch('data/services.json');
-    const groups = await res.json();
+    const { groups } = await res.json();
     container.innerHTML = '';
     groups.forEach((group) => container.appendChild(renderGroup(group)));
     initReveal();
