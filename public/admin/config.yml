@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: imvijaychaurasia/hussle
+  repo: imvijaychaurasia/imvijaychaurasia.github.io
   branch: main
   base_url: http://192.168.102.105:4175
   auth_endpoint: auth
